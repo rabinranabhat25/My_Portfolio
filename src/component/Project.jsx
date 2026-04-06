@@ -6,7 +6,7 @@ export default function Project({ darkMode }) {
 
   // 🎨 Theme (MATCH other sections EXACTLY)
   const lightColors = {
-    bg: "bg-gradient-to-b from-orange-50 via-white to-orange-100",
+    bg: "bg-gradient-to-b from-orange-50 via-white to-orange-150",
     textPrimary: "text-gray-900",
     textSecondary: "text-gray-600",
     card: "bg-white/70 backdrop-blur-lg border border-gray-200",
@@ -14,7 +14,7 @@ export default function Project({ darkMode }) {
 
   const darkColors = {
     // 🔥 FIXED GRADIENT (NO HARD CUT)
-    bg: " bg-gradient-to-b from-via-slate-900 to-slate-950 to-black",
+    bg: " bg-gradient-to-b from-via-slate-900 to-slate-960 to-black",
     textPrimary: "text-white",
     textSecondary: "text-gray-400",
     card: "bg-white/5 backdrop-blur-lg border border-white/10",
