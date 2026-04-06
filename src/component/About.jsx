@@ -73,7 +73,7 @@ export default function About({ darkMode }) {
         >
           <div className="relative w-full max-w-md">
             <motion.img
-              src="/character.png"
+              src="src/assets/AboutAi.png"
               alt="About Me"
               className="w-full h-auto drop-shadow-2xl"
               whileHover={{ scale: 1.05, rotate: 1 }}
