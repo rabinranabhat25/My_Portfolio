@@ -6,7 +6,7 @@ export default function Skills({ darkMode }) {
 
   // 🎨 Theme (same pattern as your other sections)
   const lightColors = {
-    bg: "bg-gradient-to-b from-orange-50 via-white to-orange-100",
+    bg: "bg-gradient-to-b from-orange-100 via-white to-orange-50",
     textPrimary: "text-gray-900",
     textSecondary: "text-gray-600",
     card: "bg-white/70 backdrop-blur-lg border border-gray-200",
