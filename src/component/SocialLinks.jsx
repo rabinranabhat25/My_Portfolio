@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaFacebook, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaFacebook, FaTwitter, FaDiscord } from "react-icons/fa";
 
 export default function SocialLinks({ darkMode }) {
   
@@ -17,10 +17,10 @@ export default function SocialLinks({ darkMode }) {
   const colors = darkMode ? darkColors : lightColors;
 
   const socialItems = [
-    { icon: <FaGithub />, link: "https://github.com" },
-    { icon: <FaLinkedin />, link: "https://linkedin.com" },
-    { icon: <FaFacebook />, link: "https://facebook.com" },
-    { icon: <FaTwitter />, link: "https://twitter.com" },
+    { icon: <FaGithub />, link: "https://github.com/rabinranabhat25" },
+    { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/rabin-ranabhat-846a4b314/" },
+    { icon: <FaFacebook />, link: "https://www.facebook.com/raw.bin.rb/" },
+    { icon: <FaDiscord />, link: "https://discord.com/users/mr_monk25" },
   ];
 
   return (
