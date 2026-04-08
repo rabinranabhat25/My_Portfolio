@@ -38,22 +38,22 @@ export default function Skills({ darkMode }) {
     {
       title: "Frontend",
       icon: <Palette className="w-8 h-8 text-orange-500" />,
-      skills: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+      skills: ["React", "Next.js", "React Native", "Tailwind CSS", "Framer Motion"],
     },
     {
       title: "Backend",
       icon: <Database className="w-8 h-8 text-blue-400" />,
-      skills: ["Node.js", "Python", "MongoDB", "PostgreSQL"],
+      skills: ["Node.js", "Express", "SQL", "MongoDB", "PostgreSQL"],
     },
     {
       title: "DevOps",
       icon: <Zap className="w-8 h-8 text-purple-400" />,
-      skills: ["Docker", "AWS", "Vercel", "CI/CD"],
+      skills: [ "Vercel"],
     },
     {
       title: "Design",
       icon: <Code2 className="w-8 h-8 text-pink-400" />,
-      skills: ["Figma", "UI/UX", "Adobe XD", "Responsive Design"],
+      skills: ["Figma", "UI/UX", "Responsive Design"],
     },
   ];
 
